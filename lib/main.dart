@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_bank/views/home_page.dart';
+import 'package:my_bank/views/login_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
